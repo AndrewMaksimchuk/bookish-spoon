@@ -1,0 +1,19 @@
+{
+  "name": "bookish-spoon",
+  "scripts": {
+    "start": "read -p 'Put name(number) of directory in shelves: ' dir && npm run dev --dir=$dir",
+    "dev": "  parcel serve ./shelves/$npm_config_dir/index.html --lazy",
+    "build": "parcel build ./shelves/$npm_config_dir/index.html --dist-dir ./shelves/$npm_config_dir/dist"
+  },
+  "author": "Andrew Maksimchuk",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "parcel": "^2.12.0",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^2.0.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "engines": {
+    "node": ">= 20.11.0"
+  }
+}
