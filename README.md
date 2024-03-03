@@ -1,12 +1,12 @@
 # What this?
 
-A container for practice create on UI elements for web.  
+A container for practice create on UI elements for web.
 
 `shelves/` directory contain a collection of  
 small independent components that has name  
 as number value and must have linked together  
 with issue on github for difficuld component for  
-clear description.  
+clear description.
 
 ## How run development server
 
@@ -25,7 +25,7 @@ npm run dev --dir=name_of_directory
 ### Example
 
 Run server with content of directory name `1` with  
-path `project_dir_root/shelves/1`  
+path `project_dir_root/shelves/1`
 
 ```sh
 npm run dev --dir=1
@@ -45,8 +45,7 @@ npm run build --dir=name_of_directory
 
 ## Gallery
 
-<section style="">
-    <a href="shelves/1/look.png">
-        <img style="width: 300px; height: auto;" src="shelves/1/look.png">
-    </a>
-</section>
+<section style="display: grid; grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );gap: 15px;">
+<a href="shelves/1/look.png">
+    <img src="shelves/1/look.png">
+</a>
