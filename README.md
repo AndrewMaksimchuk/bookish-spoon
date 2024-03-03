@@ -46,6 +46,6 @@ npm run build --dir=name_of_directory
 ## Gallery
 
 <section style="display: grid; grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );gap: 15px;">
-<a href="shelves/1/look.png">
+<a href="shelves/1">
     <img src="shelves/1/look.png">
 </a>
